@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Code__c</fullName>
+    <label>Status Code</label>
+    <description>HTTP status code. Empty when the callout itself failed (timeout, DNS, etc.).</description>
+    <type>Number</type>
+    <precision>3</precision>
+    <scale>0</scale>
+    <required>false</required>
+    <unique>false</unique>
+</CustomField>

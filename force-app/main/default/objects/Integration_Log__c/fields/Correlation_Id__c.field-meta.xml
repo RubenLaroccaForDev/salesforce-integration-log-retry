@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Correlation_Id__c</fullName>
+    <label>Correlation Id</label>
+    <description>Shared by all attempts of the same call; also sent as the X-Correlation-Id header.</description>
+    <type>Text</type>
+    <length>36</length>
+    <externalId>true</externalId>
+    <required>false</required>
+    <unique>false</unique>
+</CustomField>

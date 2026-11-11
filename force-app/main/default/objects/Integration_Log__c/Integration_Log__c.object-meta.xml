@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Integration Log</label>
+    <pluralLabel>Integration Logs</pluralLabel>
+    <description>One record per outbound callout attempt: request, response, outcome and retry attempt.</description>
+    <nameField>
+        <label>Log Number</label>
+        <type>AutoNumber</type>
+        <displayFormat>LOG-{000000}</displayFormat>
+        <startingNumber>1</startingNumber>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
+    <enableActivities>false</enableActivities>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableHistory>false</enableHistory>
+</CustomObject>
